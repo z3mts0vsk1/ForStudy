@@ -23,9 +23,25 @@ code_1 = '354'
 code_3 = 132
 
 # name
-user_name = 'John'
-user_surname = 'Smith'
+user_name = 'Dan'
+user_surname = 'Zemts'
 
 # code 2 data
 x = 152
 y = 132
+
+print(x / y)
+a = x % y
+print(a)
+print(a*13)
+b = a*13
+print(b)
+print(b ** 0.5)
+c = b ** 0.5
+d = int(c)
+print(d)
+abcd = a, "-", b, "-", d
+print(abcd)
+
+print('Hello', user_name, user_surname, ".", "You are", str(current_year - year_of_birth), "years old.", 'Your secret code is', a,
+      '-', b, '-', d)
