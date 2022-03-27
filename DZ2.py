@@ -10,12 +10,12 @@ print(example_string2.capitalize())
 # Write a code to return "Get rid of stars please"
 example_string3 = "*Get rid of stars please*"
 print(example_string3[1:24])
-#print(example_string3.strip())
+print(example_string3.strip('*'))
 
 
 # Write a code to return "Hello my name is Jack"
 example_string4 = "hello my name is jack"
-print(example_string4.replace('jack', 'Jack').capitalize())
+print(example_string4.capitalize().replace('jack', 'Jack'))
 
 
 # Write a code to return formatted string "Hello, my name is Jack"
