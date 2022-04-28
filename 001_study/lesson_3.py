@@ -26,28 +26,28 @@
 #     print(student[x])
 
 
-odds = []
-evens = []
-
-for num in range(100):
-     if num % 2 == 0:
-         evens.append(num)
-     else:
-         odds.append(num)
-
-print(odds)
+# odds = []
+# evens = []
 #
-# for num in odds:
-#     print(num)
+# for num in range(100):
+#      if num % 2 == 0:
+#          evens.append(num)
+#      else:
+#          odds.append(num)
 #
-# for num in evens:
-#     print(num)
-#
-for num in range(100):
-    if num % 2 == 0:
-        print(num, 'Even')
-    else:
-        print(num, 'Odd')
+# print(odds)
+# #
+# # for num in odds:
+# #     print(num)
+# #
+# # for num in evens:
+# #     print(num)
+# #
+# for num in range(100):
+#     if num % 2 == 0:
+#         print(num, 'Even')
+#     else:
+#         print(num, 'Odd')
 
 # sample = (['one', 1], ['two', 2], ['three', 3])
 # for x, y in sample:
@@ -222,8 +222,8 @@ for (variable) in (iterable)
 
 
 
-# test_list = [1, 2, 3]
-# print(test_list)
+test_list = [1, 2, 3]
+print(test_list)
 #
 # test_list[1] = 777
 # print(test_list)

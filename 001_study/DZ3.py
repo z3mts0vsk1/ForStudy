@@ -3,6 +3,28 @@
 # Если число делится на 5 без остатка - написать число и Buzz
 # Если число делится на 3 и на 5 без остатка - написать число и FizzBuzz
 
+fizz = []
+buzz = []
+fizzbuzz = []
+
+for num in range(101):
+    if num % 3 == 0 and num % 5 == 0:
+        print(num, 'FizzBuzz')
+    elif num % 5 == 0:
+        print(num, 'Buzz')
+    elif num % 3 == 0:
+        print(num, 'Fizz')
+
+
+# for num in range(101):
+#     if num % 3 == 0 and num % 5 == 0:
+#         print(num, 'FizzBuzz')
+# print(fizz)
+# print(buzz)
+# print(fizzbuzz)
+
+
+
 # fizz = []
 # for num in range(100):
 #     if num % 3 == 0:
@@ -29,7 +51,6 @@
 # print(fizzbuzz)
 # print(fizz, 'Fizz')
 # print(buzz, 'Buzz')
-
 
 
 
