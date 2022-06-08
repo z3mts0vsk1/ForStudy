@@ -14,8 +14,8 @@ while True:
     else:
         break
 
-while True:
     # USER MENU
+while True:
     user_choice = input('Please choose:\n'
                         '1.Gender\n'
                         '2.Date of birth\n'
