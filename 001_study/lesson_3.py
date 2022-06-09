@@ -6,7 +6,7 @@
 #
 # filled_list = [121313123, 123123.23123, 'strong', text, True, None, [1,2,3,4,5], 'Hello']
 #
-# courses = {'History', 'Programming', 'Art', 'Literature', 'Physics', 'Math'}
+courses = {'History', 'Programming', 'Art', 'Literature', 'Physics', 'Math'}
 # number = [1, 5, 6, 8, 4, 2]
 # teste = ['History', 'Programming', 'Math', 'Literature', 'Physics', 'Math']
 # courses2 = {'Art', 'Physics', 'Design', 'History'}
@@ -153,8 +153,10 @@ for (variable) in (iterable)
 # a, b, c = input('Enter tringle sides.').split()
 # print(a, b, c)
 
-#new_list = 'Hello world'.split() # разделить строку на элементы, если в скобках пропуст то делитель будет пробел
-#print(new_list)
+# new_list = 'Hello world'.split() # разделить строку на элементы, если в скобках пропуст то делитель будет пробел
+# print(new_list)
+# new_list.reverse()
+# print(new_list)
 
 #print(list('Hello world'))
 
@@ -222,8 +224,8 @@ for (variable) in (iterable)
 
 
 
-test_list = [1, 2, 3]
-print(test_list)
+# test_list = [1, 2, 3]
+# print(test_list)
 #
 # test_list[1] = 777
 # print(test_list)
