@@ -14,10 +14,10 @@ import datetime
 # print(type(str_to_dt))
 # print(str_to_dt)
 #
-# sample2 = '14:20 10/12/22'  # YY/MM/DD
-# str_to_dt2 = datetime.datetime.strptime(sample2, '%H:%M %d/%m/%y')
-# print(type(str_to_dt2))
-# print(str_to_dt2)
+sample2 = '14:20 10/12/22'  # YY/MM/DD
+str_to_dt2 = datetime.datetime.strptime(sample2, '%H:%M %y/%m/%d')
+print(type(str_to_dt2))
+print(str_to_dt2)
 #
 # sample3 = 'Tuesday, September 24, 2019'
 # str_to_dt3 = datetime.datetime.strptime(sample3, '%A, %B %d, %Y')
@@ -54,16 +54,16 @@ import datetime
 # Write a function to subtract 2 weeks from timestamp and return new timestamp
 # input: timestamp (float)
 # output: timestamp (float)
-def timestamp():
-    tdelta2 = datetime.timedelta(weeks=2)
-    timestamp1 = float(input(f'Please input timestamp: '))
-    ts1_dt = datetime.datetime.fromtimestamp(timestamp1)
-    dt2 = ts1_dt - tdelta2
-    timestamp2 = datetime.datetime.timestamp(dt2)
-    print(ts1_dt)
-    print(f'New timestamp is:{timestamp2}')
-    print(datetime.datetime.fromtimestamp(timestamp2))
-
-timestamp()
+# def timestamp():
+#     tdelta2 = datetime.timedelta(weeks=2)
+#     timestamp1 = float(input(f'Please input timestamp: '))
+#     ts1_dt = datetime.datetime.fromtimestamp(timestamp1)
+#     dt2 = ts1_dt - tdelta2
+#     timestamp2 = datetime.datetime.timestamp(dt2)
+#     print(ts1_dt)
+#     print(f'New timestamp is:{timestamp2}')
+#     print(datetime.datetime.fromtimestamp(timestamp2))
+#
+# timestamp()
 
 
